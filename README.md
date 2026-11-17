@@ -52,7 +52,7 @@ tree_birds/
 ## How to run the code
 All scripts are Google Colab notebooks written in R. Run them in number order:
 1. `scripts/0_project_setup.ipynb` creates the project folder and subfolders in Google Drive.
-2. `1_bbs_data_cleaning.ipynb' reads, joins, binds, preprocesses, and cleans raw files from the bbs_data folder, as well as bbs_regions.csv, bird_families.csv, and SpeciesList.csv, and writes amended_specieslist.csv and north_american_bird_abundance_1966-2025_clean.csv.
+2. `1_bbs_data_cleaning.ipynb` reads, joins, binds, preprocesses, and cleans raw files from the bbs_data folder, as well as bbs_regions.csv, bird_families.csv, and SpeciesList.csv, and writes amended_specieslist.csv and north_american_bird_abundance_1966-2025_clean.csv.
 3. `2_tc_loss_data_cleaning.ipynb` reads, joins, binds, reshapes, preprocesses, and cleans information from Global Nature Watch's tree cover loss and drivers spreadsheets (USA.xlsx) and writes tree_loss_data_2001-2025.csv and us_state_bird_abundance_by_forest_loss_2001-2025.csv.
 4. `3_bbs_exploratory_analysis.ipynb` loads in the .csvs from step 3. and begins processing them for sums, medians, correlations, and trends. This will soon be updated to build graphs and save figures to 'figures/'.
 5. Each notebook must first mount to Google Drive through Python, then switches to R runtime. 
