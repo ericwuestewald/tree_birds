@@ -87,9 +87,9 @@ All scripts are Google Colab notebooks written in R. Run them in number order:
 15. **Removed duplicates**.
 16. **Used `filter` to remove NA values** from yearly_loss_ha, perm_tc_loss_ha, and temp_tc_loss_ha and create clean .csv file.
 
-**Known data issues:**
--BBS indices are representative of whole integers but have been processed to average survey results across multiple routes, as well as adjustments for different types of bird behavior, expertise of the surveyor, and other expressions of uncertainty, making some numbers fractional and hard to immediately understand
--Global Nature Watch's tree cover loss data is measured in hectares and must be significantly scaled down to match the small BBS indices
+## **Known data issues:**
+-BBS indices are representative of whole integers but have been processed to average survey results across multiple routes, as well as adjustments for different types of bird behavior, expertise of the surveyor, and other expressions of uncertainty, making some numbers fractional and hard to immediately understand.
+-Global Nature Watch's tree cover loss data is measured in hectares and must be significantly scaled down to match the small BBS indices.
 -Global Nature Watch's breakdowns of permanent and temporary data do not perfectly add up to total yearly losses. That small gap comes from tree cover loss that their model did not classify. The model is only run on areas where loss makes up at least .5% of a 1 kilometer cell, as very small loss areas are hard to classify accurately. This leaves some small, scattered areas of loss that are not assigned to any driver category. That area is best classified as an 'unknown' driver.
 
 ## Status and next steps
