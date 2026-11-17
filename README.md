@@ -1,14 +1,15 @@
 # Declining Bird Populations and Forest Loss in the American South
 
 *Capstone project for the YSE Environmental Data Science Certificate.*
+
 *Author: [Eric Wuestewald] Last Updated: [Nov 2026]*
 
-**##Overview**
+## **Overview**
 North America has lost approximately one-third of its total bird population (nearly 3 billion birds) since the 1970s. Though there are numerous reasons for the decline of these populations, one of the largest is habitat destruction and fragmentation caused by agriculture, urban development, logging, and forest management. From 2000 to 2025, the American South experienced a significant population and development boom, adding over 7.5 million people at a 6% growth rate (nearly double the national average). During that time, Southern states were responsible for 70% of permanent deforestation across America.
 
 This project seeks to better understand the potential connection between habitat loss and breeding bird populations, so that developing population centers can make more informed decisions about how and where to develop while protecting local wildlife and managing conservation goals.
 
-**##Research Questions**
+## **Research Questions**
 Specifically, this project seeks to investigate the following questions:
 
 1) How closely are forest habitat loss and loss of breeding bird populations correlated? 
@@ -16,7 +17,7 @@ Specifically, this project seeks to investigate the following questions:
 3) Is temporary forest loss also correlated to declines in bird populations?
 4) Which locations are most negatively affected by forest habitat loss and loss of breeding bird populations?
 
-**##Data Sets**
+## **Data Sets**
 To answer these questions, this research heavily utilizes the [United States Geological Survey's Breeding Bird Survey](https://www.usgs.gov/data/north-american-breeding-bird-survey-analysis-results-1966-2025), which has tracked over 420 bird populations along 4,100 survey routes across North America from 1966 to 2025. Each survey route is conducted in June by participants skilled in avian identification along a 24.5 miles long route with stops half a mile apart. At each step, participants count every bird they can hear or see with a .25 mile radius. Once analyzed, USGS provides raw data and an index of population abundance that can be used to estimate population trends and relative abundance at various geographic scales. These are yearly indexes of abundance estimated using a hierarchical model analysis for regions corresponding to the long-term ratio trend estimates, representing the expected average birds seen on a route in that region by an average BBS observer.
 
 This research also uses [Global Nature Watch's annual tree cover loss](https://www.globalforestwatch.org/dashboards/country/USA/) and [drivers of tree cover loss](https://datasets.wri.org/datasets/dominant-drivers-of-tree-cover-loss-at-1km_) (2001-2025) datasets. This data from University of Maryland's GLAD lab captures any disturbances to tree cover (defined as woody vegetation at least five meters tall) at 30-meter resolution. Information from Global Nature Watch is then divided by human and natural causes and permanent or temporary causes. 
