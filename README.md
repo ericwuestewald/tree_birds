@@ -5,7 +5,7 @@
 *Author: [Eric Wuestewald] Last Updated: [Nov 2026]*
 
 ## **Overview**
-North America has lost approximately one-third of its total bird population (nearly 3 billion birds) since the 1970s. Though there are numerous reasons for the decline of these populations, one of the largest is habitat destruction and fragmentation caused by agriculture, urban development, logging, and forest management. From 2000 to 2025, the American South experienced a significant population and development boom, adding over 7.5 million people at a 6% growth rate (nearly double the national average). During that time, Southern states were responsible for 70% of permanent deforestation across America.
+North America has lost approximately one-third of its total bird population (nearly 3 billion birds) since the 1970s. Though there are numerous reasons for the decline of these populations, one of the largest is habitat destruction and fragmentation caused by agriculture, urban development, logging, and forest management. From 2000 to 2025, the American South experienced a significant population and development boom, adding over 7.5 million people at a 6% growth rate (nearly double the national average). During that time, Southern states were responsible for 70% of permanent deforestation across America to fuel their growth.
 
 This project seeks to better understand the potential connection between habitat loss and breeding bird populations, so that developing population centers can make more informed decisions about how and where to develop while protecting local wildlife and managing conservation goals.
 
