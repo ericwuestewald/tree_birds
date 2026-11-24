@@ -87,6 +87,7 @@ All scripts are Google Colab notebooks written in R. Run them in number order:
 14. **Used `left_join` by common_region and year to combine the tree cover loss data from step 13. with the final product from `1_bbs_data_cleaning`**.
 15. **Removed duplicates**.
 16. **Used `filter` to remove NA values** from yearly_loss_ha, perm_tc_loss_ha, and temp_tc_loss_ha and create clean .csv file.
+17. **Converted hectares to square kilometers throughout** for easier graphing and to utilize a more commonly understood unit of measurement.
 
 ## **Known data issues:**
 -BBS indices are representative of whole integers but have been processed to average survey results across multiple routes, as well as adjustments for different types of bird behavior, expertise of the surveyor, and other expressions of uncertainty, making some numbers fractional and hard to immediately understand.
